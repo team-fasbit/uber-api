@@ -1,0 +1,32 @@
+{
+  "name": "tronwallet",
+  "version": "1.0.0",
+  "description": "tron-wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/provenlogic/tron-wallet.git"
+  },
+  "keywords": [
+    "tron",
+    "wallet"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/provenlogic/tron-wallet#readme",
+  "dependencies": {
+    "@tronscan/client": "^0.2.25",
+    "dotenv": "^6.1.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.3.13",
+    "request": "^2.88.0",
+    "tronweb": "^2.1.9"
+  }
+}
